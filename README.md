@@ -1,2 +1,2 @@
 # Codes
-Solutions for Codechef,Spojand Codeforces.
+Solutions for Codechef,Spoj and Codeforces.
