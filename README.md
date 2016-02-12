@@ -1,6 +1,6 @@
 # Codes
 
-- Codes not updated.
+- Codes not updated since December 2015. Please check Handles.
 
 
 Solutions for Codechef,Spoj and Codeforces.
