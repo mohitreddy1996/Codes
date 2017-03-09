@@ -6,75 +6,37 @@
 #define MAXROW 10
 #define MAXCOL 10
 using namespace std;
+#define mod 1000000007
 
-bool chessBoard[MAXROW][MAXCOL];
-bool visited[MAXROW][MAXCOL];
+int a[100005];
+int max1[100005];
+int b[2004];
 
-void init(){
-    for(int i=0; i<MAXROW; i++){
-        for(int j=0; j<MAXCOL; j++){
-            chessBoard[i][j] = false;
-            visited[i][j] = false;
-        }
+void init(int n){
+    for(int i=0; i<n; i++){
+        max1[i] = -1;
     }
 }
 
-int moves[8][2] = {{-2, -1}, {-2, 1}, {2, -1}, {2, 1}, {-1, 2}, {-1, -2}, {1, 2}, {1, -2}};
+int calc(int n, int c){
+    int ans = 0;
 
-int max_count = 0;
-
-void knight_moves(int x, int y, int count){
-
-    // dfs
-    visited[x][y] = true;
-    for(int i=0; i<8; i++){
-        int xx = x + moves[i][0];
-        int yy = y + moves[i][1];
-        if(xx >=0 && xx<MAXCOL && yy>=0 && yy<MAXCOL && !visited[xx][yy] && chessBoard[xx][yy]){
-            knight_moves(xx, yy, count+1);
-        }
-    }
-    visited[x][y] = false;
-    if(count > max_count){
-        max_count = count;
-    }
 }
 
 int main(){
-    int caseNo = 1;
-    while(1){
-        int N;
-        cin>>N;
-        if(N == 0){
-            break;
+    int t;
+    cin>>t;
+    while(t--){
+        int n, c;
+        cin>>n>>c;
+        for(int i=0; i<c; i++){
+            scanf("%d",&b[i]);
         }
-        init();
-        int count = 0;
-        for(int i=0; i<N;i++){
-            int x, y;
-            cin>>x>>y;
-            for(int j=x; j<(x+y); j++){
-                chessBoard[i][j] = true;
-                count++;
-            }
-        }
-        int x = 0, y = 0;
-        for(int i=0; i<MAXCOL; i++){
-            if(chessBoard[0][i]){
-                x = 0;
-                y = i;
-                break;
-            }
-        }
-        knight_moves(x, y, 1);
-        int ans = count - max_count;
-        max_count = 0;
-        if(ans == 1){
-            printf("Case %d, %d square can not be reached.\n", caseNo, ans);
-        }else{
-            printf("Case %d, %d squares can not be reached.\n", caseNo, ans);
-        }
-        caseNo++;
+
+
     }
+
+
+
     return 0;
 }

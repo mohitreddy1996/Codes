@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/mohit/Competitive-Coding/practice.cpp">
+		<Unit filename="/home/mohit/Competitive-Coding/shortest_path_tree.cpp">
 			<Option target="CP"/>
 		</Unit>
 		<Unit filename="/home/mohit/Competitive-Coding/CMakeLists.txt">

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CP.dir/practice.cpp.o"
+  "CMakeFiles/CP.dir/shortest_path_tree.cpp.o"
   "CP.pdb"
   "CP"
 )
