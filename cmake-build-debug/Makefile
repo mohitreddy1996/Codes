@@ -123,32 +123,32 @@ CP/fast:
 	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/build
 .PHONY : CP/fast
 
-shortest_path_tree.o: shortest_path_tree.cpp.o
+Dijkstra.o: Dijkstra.cpp.o
 
-.PHONY : shortest_path_tree.o
+.PHONY : Dijkstra.o
 
 # target to build an object file
-shortest_path_tree.cpp.o:
-	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/shortest_path_tree.cpp.o
-.PHONY : shortest_path_tree.cpp.o
+Dijkstra.cpp.o:
+	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/Dijkstra.cpp.o
+.PHONY : Dijkstra.cpp.o
 
-shortest_path_tree.i: shortest_path_tree.cpp.i
+Dijkstra.i: Dijkstra.cpp.i
 
-.PHONY : shortest_path_tree.i
+.PHONY : Dijkstra.i
 
 # target to preprocess a source file
-shortest_path_tree.cpp.i:
-	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/shortest_path_tree.cpp.i
-.PHONY : shortest_path_tree.cpp.i
+Dijkstra.cpp.i:
+	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/Dijkstra.cpp.i
+.PHONY : Dijkstra.cpp.i
 
-shortest_path_tree.s: shortest_path_tree.cpp.s
+Dijkstra.s: Dijkstra.cpp.s
 
-.PHONY : shortest_path_tree.s
+.PHONY : Dijkstra.s
 
 # target to generate assembly for a file
-shortest_path_tree.cpp.s:
-	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/shortest_path_tree.cpp.s
-.PHONY : shortest_path_tree.cpp.s
+Dijkstra.cpp.s:
+	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/Dijkstra.cpp.s
+.PHONY : Dijkstra.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CP"
-	@echo "... shortest_path_tree.o"
-	@echo "... shortest_path_tree.i"
-	@echo "... shortest_path_tree.s"
+	@echo "... Dijkstra.o"
+	@echo "... Dijkstra.i"
+	@echo "... Dijkstra.s"
 .PHONY : help
 
 

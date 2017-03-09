@@ -1,1 +1,1 @@
-/usr/bin/c++   -g   CMakeFiles/CP.dir/shortest_path_tree.cpp.o  -o CP -rdynamic 
+/usr/bin/c++   -g   CMakeFiles/CP.dir/Dijkstra.cpp.o  -o CP -rdynamic 
