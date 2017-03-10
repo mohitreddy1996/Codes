@@ -2,6 +2,20 @@
 // Created by mohit on 9/3/17.
 //
 
+/**
+ * Input
+1 2 3
+1 5 3
+1 3 4
+2 3 7
+2 4 3
+3 5 6
+4 3 4
+4 5 6
+5 2 5
+0
+ * */
+
 #include <bits/stdc++.h>
 #define MAX_NODES 100000
 #define MAX_VALUE 100000
@@ -13,7 +27,7 @@ int origin;
 int dist[MAX_NODES];
 
 // shortest path tree specifics.
-vector<pair<int, int> > shortest_path_tree;
+vector<pair<int, pair<int, int> > > shortest_path_tree;
 
 
 void initialise_weights(){
@@ -39,7 +53,7 @@ void draw_shortest_path_tree(){
                 dist[newVertex] = dist[vertex] + edgeWeight;
                 distance_node_priority_queue.push(make_pair(dist[newVertex], newVertex));
 
-                shortest_path_tree.push_back(make_pair(vertex, newVertex));
+                shortest_path_tree.push_back(make_pair(vertex, make_pair(newVertex, edgeWeight)));
             }
         }
     }
@@ -49,7 +63,7 @@ void draw_shortest_path_tree(){
 void print_shortest_path_tree(){
     cout<<"Shortest Path Tree\n";
     for(int i=0; i<shortest_path_tree.size(); i++){
-        cout<<shortest_path_tree[i].first<<" ----> "<<shortest_path_tree[i].second<<"\n";
+        cout<<shortest_path_tree[i].first<<" ----> "<<shortest_path_tree[i].second.first<<" ---> Weight : "<<shortest_path_tree[i].second.second<<"\n";
     }
 }
 

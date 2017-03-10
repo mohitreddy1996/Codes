@@ -3,6 +3,6 @@ project(CP)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES Dijkstra.cpp)
+set(SOURCE_FILES shortest_path_tree.cpp)
 add_executable(CP ${SOURCE_FILES})
 LINK_LIBRARIES(CP cppunit)

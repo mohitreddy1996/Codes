@@ -2,6 +2,20 @@
 // Created by mohit on 10/3/17.
 //
 
+
+/**
+ * Input
+1 2 3
+1 5 3
+1 3 4
+2 3 7
+2 4 3
+3 5 6
+4 3 4
+4 5 6
+5 2 5
+0
+ * */
 #include <bits/stdc++.h>
 #define MAX_NODES 100000
 #define MAX_VALUE 100000
