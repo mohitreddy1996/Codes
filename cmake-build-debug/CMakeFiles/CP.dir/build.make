@@ -57,38 +57,38 @@ include CMakeFiles/CP.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CP.dir/flags.make
 
-CMakeFiles/CP.dir/shortest_path_tree.cpp.o: CMakeFiles/CP.dir/flags.make
-CMakeFiles/CP.dir/shortest_path_tree.cpp.o: ../shortest_path_tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohit/Competitive-Coding/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CP.dir/shortest_path_tree.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CP.dir/shortest_path_tree.cpp.o -c /home/mohit/Competitive-Coding/shortest_path_tree.cpp
+CMakeFiles/CP.dir/Comparison.cpp.o: CMakeFiles/CP.dir/flags.make
+CMakeFiles/CP.dir/Comparison.cpp.o: ../Comparison.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohit/Competitive-Coding/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CP.dir/Comparison.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CP.dir/Comparison.cpp.o -c /home/mohit/Competitive-Coding/Comparison.cpp
 
-CMakeFiles/CP.dir/shortest_path_tree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CP.dir/shortest_path_tree.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohit/Competitive-Coding/shortest_path_tree.cpp > CMakeFiles/CP.dir/shortest_path_tree.cpp.i
+CMakeFiles/CP.dir/Comparison.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CP.dir/Comparison.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohit/Competitive-Coding/Comparison.cpp > CMakeFiles/CP.dir/Comparison.cpp.i
 
-CMakeFiles/CP.dir/shortest_path_tree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CP.dir/shortest_path_tree.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohit/Competitive-Coding/shortest_path_tree.cpp -o CMakeFiles/CP.dir/shortest_path_tree.cpp.s
+CMakeFiles/CP.dir/Comparison.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CP.dir/Comparison.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohit/Competitive-Coding/Comparison.cpp -o CMakeFiles/CP.dir/Comparison.cpp.s
 
-CMakeFiles/CP.dir/shortest_path_tree.cpp.o.requires:
+CMakeFiles/CP.dir/Comparison.cpp.o.requires:
 
-.PHONY : CMakeFiles/CP.dir/shortest_path_tree.cpp.o.requires
+.PHONY : CMakeFiles/CP.dir/Comparison.cpp.o.requires
 
-CMakeFiles/CP.dir/shortest_path_tree.cpp.o.provides: CMakeFiles/CP.dir/shortest_path_tree.cpp.o.requires
-	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/shortest_path_tree.cpp.o.provides.build
-.PHONY : CMakeFiles/CP.dir/shortest_path_tree.cpp.o.provides
+CMakeFiles/CP.dir/Comparison.cpp.o.provides: CMakeFiles/CP.dir/Comparison.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/Comparison.cpp.o.provides.build
+.PHONY : CMakeFiles/CP.dir/Comparison.cpp.o.provides
 
-CMakeFiles/CP.dir/shortest_path_tree.cpp.o.provides.build: CMakeFiles/CP.dir/shortest_path_tree.cpp.o
+CMakeFiles/CP.dir/Comparison.cpp.o.provides.build: CMakeFiles/CP.dir/Comparison.cpp.o
 
 
 # Object files for target CP
 CP_OBJECTS = \
-"CMakeFiles/CP.dir/shortest_path_tree.cpp.o"
+"CMakeFiles/CP.dir/Comparison.cpp.o"
 
 # External object files for target CP
 CP_EXTERNAL_OBJECTS =
 
-CP: CMakeFiles/CP.dir/shortest_path_tree.cpp.o
+CP: CMakeFiles/CP.dir/Comparison.cpp.o
 CP: CMakeFiles/CP.dir/build.make
 CP: CMakeFiles/CP.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mohit/Competitive-Coding/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CP"
@@ -99,7 +99,7 @@ CMakeFiles/CP.dir/build: CP
 
 .PHONY : CMakeFiles/CP.dir/build
 
-CMakeFiles/CP.dir/requires: CMakeFiles/CP.dir/shortest_path_tree.cpp.o.requires
+CMakeFiles/CP.dir/requires: CMakeFiles/CP.dir/Comparison.cpp.o.requires
 
 .PHONY : CMakeFiles/CP.dir/requires
 

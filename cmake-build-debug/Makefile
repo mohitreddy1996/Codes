@@ -123,32 +123,32 @@ CP/fast:
 	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/build
 .PHONY : CP/fast
 
-shortest_path_tree.o: shortest_path_tree.cpp.o
+Comparison.o: Comparison.cpp.o
 
-.PHONY : shortest_path_tree.o
+.PHONY : Comparison.o
 
 # target to build an object file
-shortest_path_tree.cpp.o:
-	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/shortest_path_tree.cpp.o
-.PHONY : shortest_path_tree.cpp.o
+Comparison.cpp.o:
+	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/Comparison.cpp.o
+.PHONY : Comparison.cpp.o
 
-shortest_path_tree.i: shortest_path_tree.cpp.i
+Comparison.i: Comparison.cpp.i
 
-.PHONY : shortest_path_tree.i
+.PHONY : Comparison.i
 
 # target to preprocess a source file
-shortest_path_tree.cpp.i:
-	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/shortest_path_tree.cpp.i
-.PHONY : shortest_path_tree.cpp.i
+Comparison.cpp.i:
+	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/Comparison.cpp.i
+.PHONY : Comparison.cpp.i
 
-shortest_path_tree.s: shortest_path_tree.cpp.s
+Comparison.s: Comparison.cpp.s
 
-.PHONY : shortest_path_tree.s
+.PHONY : Comparison.s
 
 # target to generate assembly for a file
-shortest_path_tree.cpp.s:
-	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/shortest_path_tree.cpp.s
-.PHONY : shortest_path_tree.cpp.s
+Comparison.cpp.s:
+	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/Comparison.cpp.s
+.PHONY : Comparison.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CP"
-	@echo "... shortest_path_tree.o"
-	@echo "... shortest_path_tree.i"
-	@echo "... shortest_path_tree.s"
+	@echo "... Comparison.o"
+	@echo "... Comparison.i"
+	@echo "... Comparison.s"
 .PHONY : help
 
 
