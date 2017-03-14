@@ -78,7 +78,7 @@ int main(){
         input.push_back(make_pair(x, make_pair(y, w)));
         count++;
     }
-    
+
     clock_t t1;
     clock_t t2;
     t1 = clock();

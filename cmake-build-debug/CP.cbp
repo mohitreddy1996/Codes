@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/mohit/Competitive-Coding/Comparison.cpp">
+		<Unit filename="/home/mohit/Competitive-Coding/A_Star.cpp">
 			<Option target="CP"/>
 		</Unit>
 		<Unit filename="/home/mohit/Competitive-Coding/CMakeLists.txt">

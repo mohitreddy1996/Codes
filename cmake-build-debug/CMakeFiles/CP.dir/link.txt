@@ -1,1 +1,1 @@
-/usr/bin/c++   -g   CMakeFiles/CP.dir/Comparison.cpp.o  -o CP -rdynamic 
+/usr/bin/c++   -g   CMakeFiles/CP.dir/A_Star.cpp.o  -o CP -rdynamic 

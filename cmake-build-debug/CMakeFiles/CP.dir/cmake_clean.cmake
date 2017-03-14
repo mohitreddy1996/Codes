@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CP.dir/Comparison.cpp.o"
+  "CMakeFiles/CP.dir/A_Star.cpp.o"
   "CP.pdb"
   "CP"
 )

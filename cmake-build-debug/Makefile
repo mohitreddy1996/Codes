@@ -123,32 +123,32 @@ CP/fast:
 	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/build
 .PHONY : CP/fast
 
-Comparison.o: Comparison.cpp.o
+A_Star.o: A_Star.cpp.o
 
-.PHONY : Comparison.o
+.PHONY : A_Star.o
 
 # target to build an object file
-Comparison.cpp.o:
-	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/Comparison.cpp.o
-.PHONY : Comparison.cpp.o
+A_Star.cpp.o:
+	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/A_Star.cpp.o
+.PHONY : A_Star.cpp.o
 
-Comparison.i: Comparison.cpp.i
+A_Star.i: A_Star.cpp.i
 
-.PHONY : Comparison.i
+.PHONY : A_Star.i
 
 # target to preprocess a source file
-Comparison.cpp.i:
-	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/Comparison.cpp.i
-.PHONY : Comparison.cpp.i
+A_Star.cpp.i:
+	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/A_Star.cpp.i
+.PHONY : A_Star.cpp.i
 
-Comparison.s: Comparison.cpp.s
+A_Star.s: A_Star.cpp.s
 
-.PHONY : Comparison.s
+.PHONY : A_Star.s
 
 # target to generate assembly for a file
-Comparison.cpp.s:
-	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/Comparison.cpp.s
-.PHONY : Comparison.cpp.s
+A_Star.cpp.s:
+	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/A_Star.cpp.s
+.PHONY : A_Star.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CP"
-	@echo "... Comparison.o"
-	@echo "... Comparison.i"
-	@echo "... Comparison.s"
+	@echo "... A_Star.o"
+	@echo "... A_Star.i"
+	@echo "... A_Star.s"
 .PHONY : help
 
 
