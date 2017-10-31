@@ -84,7 +84,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/mohit/Competitive-Coding/A_Star.cpp">
+		<Unit filename="/home/mohit/Competitive-Coding/Dijkstra/binary_heap.cpp">
+			<Option target="CP"/>
+		</Unit>
+		<Unit filename="/home/mohit/Competitive-Coding/Dijkstra/binary_heap.h">
+			<Option target="CP"/>
+		</Unit>
+		<Unit filename="/home/mohit/Competitive-Coding/Dijkstra/binomial_heap.cpp">
+			<Option target="CP"/>
+		</Unit>
+		<Unit filename="/home/mohit/Competitive-Coding/Dijkstra/binomial_heap.h">
+			<Option target="CP"/>
+		</Unit>
+		<Unit filename="/home/mohit/Competitive-Coding/Dijkstra/dijkstra.cpp">
+			<Option target="CP"/>
+		</Unit>
+		<Unit filename="/home/mohit/Competitive-Coding/Dijkstra/fibonacci_heap.cpp">
+			<Option target="CP"/>
+		</Unit>
+		<Unit filename="/home/mohit/Competitive-Coding/Dijkstra/fibonacci_heap.h">
 			<Option target="CP"/>
 		</Unit>
 		<Unit filename="/home/mohit/Competitive-Coding/CMakeLists.txt">

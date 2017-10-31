@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CP.dir/A_Star.cpp.o"
+  "CMakeFiles/CP.dir/Dijkstra/dijkstra.cpp.o"
+  "CMakeFiles/CP.dir/Dijkstra/fibonacci_heap.cpp.o"
+  "CMakeFiles/CP.dir/Dijkstra/binary_heap.cpp.o"
+  "CMakeFiles/CP.dir/Dijkstra/binomial_heap.cpp.o"
   "CP.pdb"
   "CP"
 )

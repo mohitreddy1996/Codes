@@ -57,41 +57,119 @@ include CMakeFiles/CP.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CP.dir/flags.make
 
-CMakeFiles/CP.dir/A_Star.cpp.o: CMakeFiles/CP.dir/flags.make
-CMakeFiles/CP.dir/A_Star.cpp.o: ../A_Star.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohit/Competitive-Coding/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CP.dir/A_Star.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CP.dir/A_Star.cpp.o -c /home/mohit/Competitive-Coding/A_Star.cpp
+CMakeFiles/CP.dir/Dijkstra/dijkstra.cpp.o: CMakeFiles/CP.dir/flags.make
+CMakeFiles/CP.dir/Dijkstra/dijkstra.cpp.o: ../Dijkstra/dijkstra.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohit/Competitive-Coding/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CP.dir/Dijkstra/dijkstra.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CP.dir/Dijkstra/dijkstra.cpp.o -c /home/mohit/Competitive-Coding/Dijkstra/dijkstra.cpp
 
-CMakeFiles/CP.dir/A_Star.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CP.dir/A_Star.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohit/Competitive-Coding/A_Star.cpp > CMakeFiles/CP.dir/A_Star.cpp.i
+CMakeFiles/CP.dir/Dijkstra/dijkstra.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CP.dir/Dijkstra/dijkstra.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohit/Competitive-Coding/Dijkstra/dijkstra.cpp > CMakeFiles/CP.dir/Dijkstra/dijkstra.cpp.i
 
-CMakeFiles/CP.dir/A_Star.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CP.dir/A_Star.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohit/Competitive-Coding/A_Star.cpp -o CMakeFiles/CP.dir/A_Star.cpp.s
+CMakeFiles/CP.dir/Dijkstra/dijkstra.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CP.dir/Dijkstra/dijkstra.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohit/Competitive-Coding/Dijkstra/dijkstra.cpp -o CMakeFiles/CP.dir/Dijkstra/dijkstra.cpp.s
 
-CMakeFiles/CP.dir/A_Star.cpp.o.requires:
+CMakeFiles/CP.dir/Dijkstra/dijkstra.cpp.o.requires:
 
-.PHONY : CMakeFiles/CP.dir/A_Star.cpp.o.requires
+.PHONY : CMakeFiles/CP.dir/Dijkstra/dijkstra.cpp.o.requires
 
-CMakeFiles/CP.dir/A_Star.cpp.o.provides: CMakeFiles/CP.dir/A_Star.cpp.o.requires
-	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/A_Star.cpp.o.provides.build
-.PHONY : CMakeFiles/CP.dir/A_Star.cpp.o.provides
+CMakeFiles/CP.dir/Dijkstra/dijkstra.cpp.o.provides: CMakeFiles/CP.dir/Dijkstra/dijkstra.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/Dijkstra/dijkstra.cpp.o.provides.build
+.PHONY : CMakeFiles/CP.dir/Dijkstra/dijkstra.cpp.o.provides
 
-CMakeFiles/CP.dir/A_Star.cpp.o.provides.build: CMakeFiles/CP.dir/A_Star.cpp.o
+CMakeFiles/CP.dir/Dijkstra/dijkstra.cpp.o.provides.build: CMakeFiles/CP.dir/Dijkstra/dijkstra.cpp.o
+
+
+CMakeFiles/CP.dir/Dijkstra/fibonacci_heap.cpp.o: CMakeFiles/CP.dir/flags.make
+CMakeFiles/CP.dir/Dijkstra/fibonacci_heap.cpp.o: ../Dijkstra/fibonacci_heap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohit/Competitive-Coding/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CP.dir/Dijkstra/fibonacci_heap.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CP.dir/Dijkstra/fibonacci_heap.cpp.o -c /home/mohit/Competitive-Coding/Dijkstra/fibonacci_heap.cpp
+
+CMakeFiles/CP.dir/Dijkstra/fibonacci_heap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CP.dir/Dijkstra/fibonacci_heap.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohit/Competitive-Coding/Dijkstra/fibonacci_heap.cpp > CMakeFiles/CP.dir/Dijkstra/fibonacci_heap.cpp.i
+
+CMakeFiles/CP.dir/Dijkstra/fibonacci_heap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CP.dir/Dijkstra/fibonacci_heap.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohit/Competitive-Coding/Dijkstra/fibonacci_heap.cpp -o CMakeFiles/CP.dir/Dijkstra/fibonacci_heap.cpp.s
+
+CMakeFiles/CP.dir/Dijkstra/fibonacci_heap.cpp.o.requires:
+
+.PHONY : CMakeFiles/CP.dir/Dijkstra/fibonacci_heap.cpp.o.requires
+
+CMakeFiles/CP.dir/Dijkstra/fibonacci_heap.cpp.o.provides: CMakeFiles/CP.dir/Dijkstra/fibonacci_heap.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/Dijkstra/fibonacci_heap.cpp.o.provides.build
+.PHONY : CMakeFiles/CP.dir/Dijkstra/fibonacci_heap.cpp.o.provides
+
+CMakeFiles/CP.dir/Dijkstra/fibonacci_heap.cpp.o.provides.build: CMakeFiles/CP.dir/Dijkstra/fibonacci_heap.cpp.o
+
+
+CMakeFiles/CP.dir/Dijkstra/binary_heap.cpp.o: CMakeFiles/CP.dir/flags.make
+CMakeFiles/CP.dir/Dijkstra/binary_heap.cpp.o: ../Dijkstra/binary_heap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohit/Competitive-Coding/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CP.dir/Dijkstra/binary_heap.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CP.dir/Dijkstra/binary_heap.cpp.o -c /home/mohit/Competitive-Coding/Dijkstra/binary_heap.cpp
+
+CMakeFiles/CP.dir/Dijkstra/binary_heap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CP.dir/Dijkstra/binary_heap.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohit/Competitive-Coding/Dijkstra/binary_heap.cpp > CMakeFiles/CP.dir/Dijkstra/binary_heap.cpp.i
+
+CMakeFiles/CP.dir/Dijkstra/binary_heap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CP.dir/Dijkstra/binary_heap.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohit/Competitive-Coding/Dijkstra/binary_heap.cpp -o CMakeFiles/CP.dir/Dijkstra/binary_heap.cpp.s
+
+CMakeFiles/CP.dir/Dijkstra/binary_heap.cpp.o.requires:
+
+.PHONY : CMakeFiles/CP.dir/Dijkstra/binary_heap.cpp.o.requires
+
+CMakeFiles/CP.dir/Dijkstra/binary_heap.cpp.o.provides: CMakeFiles/CP.dir/Dijkstra/binary_heap.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/Dijkstra/binary_heap.cpp.o.provides.build
+.PHONY : CMakeFiles/CP.dir/Dijkstra/binary_heap.cpp.o.provides
+
+CMakeFiles/CP.dir/Dijkstra/binary_heap.cpp.o.provides.build: CMakeFiles/CP.dir/Dijkstra/binary_heap.cpp.o
+
+
+CMakeFiles/CP.dir/Dijkstra/binomial_heap.cpp.o: CMakeFiles/CP.dir/flags.make
+CMakeFiles/CP.dir/Dijkstra/binomial_heap.cpp.o: ../Dijkstra/binomial_heap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohit/Competitive-Coding/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CP.dir/Dijkstra/binomial_heap.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CP.dir/Dijkstra/binomial_heap.cpp.o -c /home/mohit/Competitive-Coding/Dijkstra/binomial_heap.cpp
+
+CMakeFiles/CP.dir/Dijkstra/binomial_heap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CP.dir/Dijkstra/binomial_heap.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohit/Competitive-Coding/Dijkstra/binomial_heap.cpp > CMakeFiles/CP.dir/Dijkstra/binomial_heap.cpp.i
+
+CMakeFiles/CP.dir/Dijkstra/binomial_heap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CP.dir/Dijkstra/binomial_heap.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohit/Competitive-Coding/Dijkstra/binomial_heap.cpp -o CMakeFiles/CP.dir/Dijkstra/binomial_heap.cpp.s
+
+CMakeFiles/CP.dir/Dijkstra/binomial_heap.cpp.o.requires:
+
+.PHONY : CMakeFiles/CP.dir/Dijkstra/binomial_heap.cpp.o.requires
+
+CMakeFiles/CP.dir/Dijkstra/binomial_heap.cpp.o.provides: CMakeFiles/CP.dir/Dijkstra/binomial_heap.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/Dijkstra/binomial_heap.cpp.o.provides.build
+.PHONY : CMakeFiles/CP.dir/Dijkstra/binomial_heap.cpp.o.provides
+
+CMakeFiles/CP.dir/Dijkstra/binomial_heap.cpp.o.provides.build: CMakeFiles/CP.dir/Dijkstra/binomial_heap.cpp.o
 
 
 # Object files for target CP
 CP_OBJECTS = \
-"CMakeFiles/CP.dir/A_Star.cpp.o"
+"CMakeFiles/CP.dir/Dijkstra/dijkstra.cpp.o" \
+"CMakeFiles/CP.dir/Dijkstra/fibonacci_heap.cpp.o" \
+"CMakeFiles/CP.dir/Dijkstra/binary_heap.cpp.o" \
+"CMakeFiles/CP.dir/Dijkstra/binomial_heap.cpp.o"
 
 # External object files for target CP
 CP_EXTERNAL_OBJECTS =
 
-CP: CMakeFiles/CP.dir/A_Star.cpp.o
+CP: CMakeFiles/CP.dir/Dijkstra/dijkstra.cpp.o
+CP: CMakeFiles/CP.dir/Dijkstra/fibonacci_heap.cpp.o
+CP: CMakeFiles/CP.dir/Dijkstra/binary_heap.cpp.o
+CP: CMakeFiles/CP.dir/Dijkstra/binomial_heap.cpp.o
 CP: CMakeFiles/CP.dir/build.make
 CP: CMakeFiles/CP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mohit/Competitive-Coding/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mohit/Competitive-Coding/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable CP"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CP.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +177,10 @@ CMakeFiles/CP.dir/build: CP
 
 .PHONY : CMakeFiles/CP.dir/build
 
-CMakeFiles/CP.dir/requires: CMakeFiles/CP.dir/A_Star.cpp.o.requires
+CMakeFiles/CP.dir/requires: CMakeFiles/CP.dir/Dijkstra/dijkstra.cpp.o.requires
+CMakeFiles/CP.dir/requires: CMakeFiles/CP.dir/Dijkstra/fibonacci_heap.cpp.o.requires
+CMakeFiles/CP.dir/requires: CMakeFiles/CP.dir/Dijkstra/binary_heap.cpp.o.requires
+CMakeFiles/CP.dir/requires: CMakeFiles/CP.dir/Dijkstra/binomial_heap.cpp.o.requires
 
 .PHONY : CMakeFiles/CP.dir/requires
 

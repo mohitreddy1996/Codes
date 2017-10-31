@@ -123,32 +123,113 @@ CP/fast:
 	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/build
 .PHONY : CP/fast
 
-A_Star.o: A_Star.cpp.o
+Dijkstra/binary_heap.o: Dijkstra/binary_heap.cpp.o
 
-.PHONY : A_Star.o
+.PHONY : Dijkstra/binary_heap.o
 
 # target to build an object file
-A_Star.cpp.o:
-	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/A_Star.cpp.o
-.PHONY : A_Star.cpp.o
+Dijkstra/binary_heap.cpp.o:
+	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/Dijkstra/binary_heap.cpp.o
+.PHONY : Dijkstra/binary_heap.cpp.o
 
-A_Star.i: A_Star.cpp.i
+Dijkstra/binary_heap.i: Dijkstra/binary_heap.cpp.i
 
-.PHONY : A_Star.i
+.PHONY : Dijkstra/binary_heap.i
 
 # target to preprocess a source file
-A_Star.cpp.i:
-	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/A_Star.cpp.i
-.PHONY : A_Star.cpp.i
+Dijkstra/binary_heap.cpp.i:
+	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/Dijkstra/binary_heap.cpp.i
+.PHONY : Dijkstra/binary_heap.cpp.i
 
-A_Star.s: A_Star.cpp.s
+Dijkstra/binary_heap.s: Dijkstra/binary_heap.cpp.s
 
-.PHONY : A_Star.s
+.PHONY : Dijkstra/binary_heap.s
 
 # target to generate assembly for a file
-A_Star.cpp.s:
-	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/A_Star.cpp.s
-.PHONY : A_Star.cpp.s
+Dijkstra/binary_heap.cpp.s:
+	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/Dijkstra/binary_heap.cpp.s
+.PHONY : Dijkstra/binary_heap.cpp.s
+
+Dijkstra/binomial_heap.o: Dijkstra/binomial_heap.cpp.o
+
+.PHONY : Dijkstra/binomial_heap.o
+
+# target to build an object file
+Dijkstra/binomial_heap.cpp.o:
+	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/Dijkstra/binomial_heap.cpp.o
+.PHONY : Dijkstra/binomial_heap.cpp.o
+
+Dijkstra/binomial_heap.i: Dijkstra/binomial_heap.cpp.i
+
+.PHONY : Dijkstra/binomial_heap.i
+
+# target to preprocess a source file
+Dijkstra/binomial_heap.cpp.i:
+	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/Dijkstra/binomial_heap.cpp.i
+.PHONY : Dijkstra/binomial_heap.cpp.i
+
+Dijkstra/binomial_heap.s: Dijkstra/binomial_heap.cpp.s
+
+.PHONY : Dijkstra/binomial_heap.s
+
+# target to generate assembly for a file
+Dijkstra/binomial_heap.cpp.s:
+	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/Dijkstra/binomial_heap.cpp.s
+.PHONY : Dijkstra/binomial_heap.cpp.s
+
+Dijkstra/dijkstra.o: Dijkstra/dijkstra.cpp.o
+
+.PHONY : Dijkstra/dijkstra.o
+
+# target to build an object file
+Dijkstra/dijkstra.cpp.o:
+	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/Dijkstra/dijkstra.cpp.o
+.PHONY : Dijkstra/dijkstra.cpp.o
+
+Dijkstra/dijkstra.i: Dijkstra/dijkstra.cpp.i
+
+.PHONY : Dijkstra/dijkstra.i
+
+# target to preprocess a source file
+Dijkstra/dijkstra.cpp.i:
+	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/Dijkstra/dijkstra.cpp.i
+.PHONY : Dijkstra/dijkstra.cpp.i
+
+Dijkstra/dijkstra.s: Dijkstra/dijkstra.cpp.s
+
+.PHONY : Dijkstra/dijkstra.s
+
+# target to generate assembly for a file
+Dijkstra/dijkstra.cpp.s:
+	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/Dijkstra/dijkstra.cpp.s
+.PHONY : Dijkstra/dijkstra.cpp.s
+
+Dijkstra/fibonacci_heap.o: Dijkstra/fibonacci_heap.cpp.o
+
+.PHONY : Dijkstra/fibonacci_heap.o
+
+# target to build an object file
+Dijkstra/fibonacci_heap.cpp.o:
+	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/Dijkstra/fibonacci_heap.cpp.o
+.PHONY : Dijkstra/fibonacci_heap.cpp.o
+
+Dijkstra/fibonacci_heap.i: Dijkstra/fibonacci_heap.cpp.i
+
+.PHONY : Dijkstra/fibonacci_heap.i
+
+# target to preprocess a source file
+Dijkstra/fibonacci_heap.cpp.i:
+	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/Dijkstra/fibonacci_heap.cpp.i
+.PHONY : Dijkstra/fibonacci_heap.cpp.i
+
+Dijkstra/fibonacci_heap.s: Dijkstra/fibonacci_heap.cpp.s
+
+.PHONY : Dijkstra/fibonacci_heap.s
+
+# target to generate assembly for a file
+Dijkstra/fibonacci_heap.cpp.s:
+	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/Dijkstra/fibonacci_heap.cpp.s
+.PHONY : Dijkstra/fibonacci_heap.cpp.s
 
 # Help Target
 help:
@@ -159,9 +240,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CP"
-	@echo "... A_Star.o"
-	@echo "... A_Star.i"
-	@echo "... A_Star.s"
+	@echo "... Dijkstra/binary_heap.o"
+	@echo "... Dijkstra/binary_heap.i"
+	@echo "... Dijkstra/binary_heap.s"
+	@echo "... Dijkstra/binomial_heap.o"
+	@echo "... Dijkstra/binomial_heap.i"
+	@echo "... Dijkstra/binomial_heap.s"
+	@echo "... Dijkstra/dijkstra.o"
+	@echo "... Dijkstra/dijkstra.i"
+	@echo "... Dijkstra/dijkstra.s"
+	@echo "... Dijkstra/fibonacci_heap.o"
+	@echo "... Dijkstra/fibonacci_heap.i"
+	@echo "... Dijkstra/fibonacci_heap.s"
 .PHONY : help
 
 

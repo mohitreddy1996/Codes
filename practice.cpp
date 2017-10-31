@@ -8,35 +8,23 @@
 using namespace std;
 #define mod 1000000007
 
-int a[100005];
-int max1[100005];
-int b[2004];
-
-void init(int n){
-    for(int i=0; i<n; i++){
-        max1[i] = -1;
-    }
-}
-
-int calc(int n, int c){
-    int ans = 0;
-
-}
 
 int main(){
-    int t;
-    cin>>t;
-    while(t--){
-        int n, c;
-        cin>>n>>c;
-        for(int i=0; i<c; i++){
-            scanf("%d",&b[i]);
+
+    long long int l, r, k;
+    cin>>l>>r>>k;
+
+    long long int ans = 1;
+    bool flag = false;
+    while(ans > 0){
+        if (ans>=l && ans <=r){
+            cout<<ans<<" ";
+            flag = true;
         }
-
-
+        ans = ans*k;
     }
-
-
-
+    if(flag == false){
+        cout<<"-1";
+    }
     return 0;
 }

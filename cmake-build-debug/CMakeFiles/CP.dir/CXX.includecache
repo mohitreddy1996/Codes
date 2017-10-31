@@ -6,7 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/home/mohit/Competitive-Coding/A_Star.cpp
+/home/mohit/Competitive-Coding/Dijkstra/binary_heap.cpp
+binary_heap.h
+/home/mohit/Competitive-Coding/Dijkstra/binary_heap.h
+
+/home/mohit/Competitive-Coding/Dijkstra/binary_heap.h
+bits/stdc++.h
+-
+
+/home/mohit/Competitive-Coding/Dijkstra/binomial_heap.cpp
+bits/stdc++.h
+-
+binomial_heap.h
+/home/mohit/Competitive-Coding/Dijkstra/binomial_heap.h
+
+/home/mohit/Competitive-Coding/Dijkstra/binomial_heap.h
+bits/stdc++.h
+-
+
+/home/mohit/Competitive-Coding/Dijkstra/dijkstra.cpp
+bits/stdc++.h
+-
+binomial_heap.h
+/home/mohit/Competitive-Coding/Dijkstra/binomial_heap.h
+binary_heap.h
+/home/mohit/Competitive-Coding/Dijkstra/binary_heap.h
+fibonacci_heap.h
+/home/mohit/Competitive-Coding/Dijkstra/fibonacci_heap.h
+
+/home/mohit/Competitive-Coding/Dijkstra/fibonacci_heap.cpp
+fibonacci_heap.h
+/home/mohit/Competitive-Coding/Dijkstra/fibonacci_heap.h
+
+/home/mohit/Competitive-Coding/Dijkstra/fibonacci_heap.h
 bits/stdc++.h
 -
 
